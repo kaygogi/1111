@@ -1,0 +1,8 @@
+1%ron%director%Parks Dept*
+2%leslie%deputy director%Parks Dept*
+3%andy%shoe shiner%staff*
+4%li’l sebastian%mascot%Mini Horse*
+5*april*intern*Parks Dept%
+6*tom*associate*Parks Dept%
+7*tammy*pure evil*Library Dept%
+8*shauna*reporter*The Pawnee Journal%
