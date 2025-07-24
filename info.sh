@@ -29,7 +29,7 @@ echo
 # 5. The kernel version.
 echo "Running Kernel version:"
 ker=$( hostnamectl \
-      | grep '^Kernel:' \
+      | grep '^[[:space:]]*Kernel:' \
       | cut -d ':' -f2- \
       | sed 's/^[[:space:]]*//' )
 echo "    $ker"
