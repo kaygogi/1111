@@ -12,7 +12,9 @@ echo
 ls
 
 # 3. Display your CPU model name
-echo
-echo "Your CPU is:"
-cpu_model=$(lscpu | awk -F: '/Model name/ {print $2; exit}' | sed 's/^[[:space:]]*//')
-echo "  $cpu_model"
+echo "CPU Model:"
+cpu=$( lscpu \
+     | grep 'Model name:' \
+     | cut -d ':' -f2- \
+     | sed 's/^[[:space:]]*//' )
+echo "    $cpu"
