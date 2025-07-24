@@ -1,5 +1,3 @@
-touch "$HOME/Pictures"/pics{1..5}.jpg
-
 #!/usr/bin/env bash
 
 # Tell the user what we're about to do
